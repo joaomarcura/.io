@@ -13,13 +13,12 @@
 <!--
 ____________________________________________________________________________
                      NAV
-                     MAIN-PAGE
 ____________________________________________________________________________
 -->
 <nav class="navbar navbar-expand-ms navbar-dark bg-gradient-warning">
   <div class="container d-flex">
     <a href="index.html" class="navbar-brand h1">APP</a>
-    <input class="ml-auto" type="image" src="imgs/play-white.png" onclick="window.location='game.html';" />
+    <input id="stats" class="ml-auto" type="image" src="imgs/stats.png" onclick="window.location='game.html';" />
     <input class="ml-3" type="image" src="imgs/profile-white.png" onclick="window.location='profile.html';" />
     <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSite">
       <span class="navbar-toggler-icon"></span>
@@ -46,9 +45,18 @@ ____________________________________________________________________________
         </ul>
       </div>
     </div>
+
 </nav>
 
-<img class="w-25 p-4" src="imgs/hero2.png" alt="hero2">
+<div class="text-center">
+    <img class="mt-5 w-50 p-1" src="imgs/hero2.png" alt="hero2"> <!-- Heroi principal -->
+</div>
+
+<div class="mt-3 mb-3 container"> <!-- Container invisivel pra borda debaixo -->
+</div>
+
+<div class="border-bottom"> <!-- Borda cinza bottom -->
+</div>
 
 <script  src="script.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
